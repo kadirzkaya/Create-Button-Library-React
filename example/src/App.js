@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'coderbtn'
+import { Button } from 'coderbtn'
 import 'coderbtn/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return  <div>
+            <Button type="primary">Primary</Button>
+            <Button>Default</Button>
+            <Button type="dashed">Dashed</Button>
+            <Button type="text">Text</Button>
+            <Button type="link">Link</Button>
+
+          </div>
 }
 
 export default App
